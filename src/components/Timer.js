@@ -31,7 +31,7 @@ function Timer() {
   }, [isActive, seconds]);
 
   return (
-    <div>
+    <div className='timer-container'>
       <h1>
         <input value={`${seconds} sec`} onChange={handleTimer} />
       </h1>
